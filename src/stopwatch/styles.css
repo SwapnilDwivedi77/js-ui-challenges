@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-size:16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    padding: 2rem;
+    height: 100%;
+}
+
+.container h2 {
+    font-size: 2rem;
+}
+
+.watch {
+    font-size: 2.75rem;
+}
+button {
+
+    background-color: #fff;
+    border: 1px solid #a9a9a9;
+    border-radius: 4px;
+    padding: 8px;
+    margin: .5rem;
+}
+
+.lap-item {
+    padding: 4px;
+    border: 1px solid #f4f4f4;
+    margin:8px;
+    font-size: 1rem;
+}
