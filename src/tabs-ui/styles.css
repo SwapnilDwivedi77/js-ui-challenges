@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    width:100%;
+    background-color: rgb(198, 198, 198);
+    min-height: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.tab {
+    width: 6rem;
+    background-color: white;
+    min-height: 100%;
+    text-align: center;
+    border: 1px solid rgb(158, 158, 158);
+    background-color: rgb(198, 198, 198);
+    padding:1rem;
+}
+
+.active {
+    background-color: #fff;
+    border-bottom: none;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.tab-content {
+    display: none;
+}
