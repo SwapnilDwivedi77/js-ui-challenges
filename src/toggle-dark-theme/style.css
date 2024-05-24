@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+    color: black
+}
+
+.dark {
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 22px;
+    background-color: #2196F3;
+    border-radius: 30px;
+    border: 2px solid #2196F3;
+}
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    top:1px;
+    left:1px;
+    transition: all 0.5s;
+}
+
+.checkbox:checked + .toggle:after{
+    left:30px;
+}
+
+.checkbox:checked + .toggle {
+    background-color: #2196F3;
+}
+
+.checkbox {
+    display: none;
+}
