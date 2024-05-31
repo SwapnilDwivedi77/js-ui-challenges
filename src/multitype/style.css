@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.left {
+    margin-right: 14px;
+    color:maroon;
+}
+.right {
+    color: lightcoral
+}
+
+.caret {
+    border:1px solid black;
+    margin-left:4px;
+}
