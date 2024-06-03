@@ -1,0 +1,41 @@
+.container {
+    padding:8px;
+    height : 400px;
+    width:150px;
+    background-color: black;
+    border-radius: 8px;
+    margin:0 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.light {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.off {
+    background-color: gray;
+}
+
+.timer {
+    font-size: 54px;
+    font-weight: bold;
+    color:red;
+}
